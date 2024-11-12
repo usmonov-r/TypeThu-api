@@ -1,0 +1,22 @@
+# Ignore Composer vendor directory (it will be recreated during build)
+/vendor
+
+# Ignore the Symfony cache and logs
+/var
+
+
+# Ignore Symfony-specific directories and files that aren't needed in the container
+/.git
+/.idea
+/.vscode
+
+# Ignore development and temporary files
+*.log
+*.swp
+*.bak
+*.tmp
+
+# Ignore Docker-related files
+# docker-compose.yml
+# Dockerfile
+# .dockerignore
